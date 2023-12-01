@@ -1,0 +1,23 @@
+/* Custom Color Navbar list  */
+.navbar-brand, .nav-link:hover, .nav-item>.active {
+    color: #5fcf80 !important;
+}
+
+/* button get started  */
+.get-started-btn {
+    margin-left: 22px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.get-started-btn:hover {
+    background: #3ac162;
+    color: #fff;
+}
