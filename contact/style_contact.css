@@ -1,38 +1,19 @@
 .breadcrumbs {
-  margin-top: 73px;
-  text-align: center;
   background: #5fcf80;
-  padding: 30px;
-  color: #fff;
 }
 .breadcrumbs h2 {
-  font-size: 32px;
-  font-weight: 500;
   font-family: "Raleway", sans-serif;
 }
 .breadcrumbs p {
   font-size: 15px;
-  margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
-}
-.contact {
-  padding-top: 5px;
-}
-section {
-  padding-bottom: 60px;
-  display: block;
 }
 .info i {
   font-size: 20px;
   color: #5fcf80;
-  float: left;
-  width: 44px;
-  height: 44px;
   background: #ecf9f0;
-  display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
 }
 .contact .info h4 {
   padding-left: 60px;
@@ -48,27 +29,21 @@ section {
   font-size: 14px;
   color: #657a6d;
 }
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-.contact .php-email-form input {
-  height: 44px;
-}
-.back-to-top {
+#back-to-top i{
   position: fixed;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #5fcf80;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
+  right: 15px;
+  bottom: 15px;
   color: #fff;
+  cursor: pointer;
+  opacity: 0.7;
+  background: #29bd55;
+  border-radius: 50px;
+  font-size: 2rem;
 }
-.back-to-top.active {
-  visibility: visible;
+
+#back-to-top:hover {
   opacity: 1;
 }
 .contact .php-email-form .form-group {
@@ -84,4 +59,3 @@ section {
   border-radius: 50px;
   color: #fff;
 }
-
