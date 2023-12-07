@@ -1,0 +1,92 @@
+.breadcrumbs {
+  text-align: center;
+  background: #5fcf80;
+  padding: 30px;
+  color: #fff;
+}
+
+.breadcrumbs h2 {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+.breadcrumbs p {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact {
+  padding-top: 5px;
+}
+
+.info i {
+  font-size: 20px;
+  color: #5fcf80;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #ecf9f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.contact .info h4 {
+  padding-left: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37423b;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact .info p {
+  padding-left: 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #657a6d;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #5fcf80;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #5fcf80 !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+#preloading {
+  background: white url(/asset/image/loading.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
