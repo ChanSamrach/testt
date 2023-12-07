@@ -1,0 +1,71 @@
+/* POPULAR COURSES */
+.bt-course,
+.breadcrumbs {
+  background: #5fcf80;
+}
+
+.course-title:hover {
+  color: #5fcf80 !important;
+  transition: opacity 0.3s ease;
+}
+
+.blockquote {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+}
+
+.breadcrumbs h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+.breadcrumbs p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.course-info {
+  background: #f6f7f6;
+}
+
+.text {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #5fcf80;
+}
+
+/* Create an active/current tablink class */
+.tab button.active,
+.btn-active {
+
+  border-right: 1px solid #5fcf80;
+  color: #5fcf80;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+
+.active {
+  display: inline;
+}

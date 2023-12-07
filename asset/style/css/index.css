@@ -1,0 +1,93 @@
+/* Create the parallax scrolling effect */
+.parallax-scroll {
+    background: url("/asset/image/parallax-bg.jpg") center no-repeat fixed;
+    min-height: 500px;
+}
+
+/* button get started  */
+.get-started {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+}
+
+.get-started:hover {
+    border: 2px solid #5fcf80;
+    background: #5fcf80;
+}
+
+/* about */
+.content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #5fcf80;
+}
+
+/* counter */
+.number-count{
+    color: #5fcf80;
+}
+
+/* Choose MTR  */
+.choose {
+    background: #5fcf80;
+}
+
+.learn-more-btn {
+    background: #ffffff33;
+}
+
+.learn-more-btn:hover {
+    background: #fff;
+    color: #5fcf80 !important;
+}
+
+.choose-card i {
+    padding: 12px 15px;
+}
+
+/* POPULAR COURSES */
+.bg-icon {
+    background-color: #ecf9f0 !important;
+    color: #5fcf80;
+}
+
+.trainer-profile img {
+    max-width: 50px;
+}
+
+.bt-course,
+.breadcrumbs {
+    background-color: #5fcf80;
+}
+
+.course-title:hover {
+    color: #5fcf80 !important;
+    transition: opacity 0.3s ease;
+}
+/* blockquote */
+
+.blockquote {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #9ae1af;
+}
+
+/* trainer section */
+.icon-hover .bi:hover {
+    color: #5fcf80;
+}
+
+#preloading {
+    background: white url(/asset/image/loading.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
