@@ -8,6 +8,7 @@
   <!-- stylesheet css link -->
   <link rel="stylesheet" href="/asset/style/css/header.css" />
   <link rel="stylesheet" href="/asset/style/css/footer.css" />
+  <link rel="stylesheet" href="/asset/style/css/about-pricing.css" />
 
   <!-- font awesome link -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -22,7 +23,8 @@
 </head>
 
 <body class="bg-light">
-  <section class="d-flex align-items-center bg-white sticky-top">
+  <div id="preloading"></div>
+  <section class="d-flex align-items-center bg-white sticky-top shadow-sm">
     <nav class="container navbar navbar-expand-lg">
       <a class="navbar-brand fw-bold fs-2 ms-3" href="index.html">MTR</a>
       <div>
@@ -97,9 +99,97 @@
     </div>
   </div>
 
-  <div data-aos="flip-down" data-aos-anchor-placement="top-center" data-aos-delay="500" data-aos-duration="1000">
-    Hello, I'm pricing page.
+  
+  <!-- ======= Breadcrumbs ======= -->
+  <div class="breadcrumbs aos-init aos-animate">
+    <div class="container" data-aos="fade-in" data-aos-once="true">
+      <h2>Pricing</h2>
+      <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit
+        quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+    </div>
   </div>
+  <!-- End Breadcrumbs -->
+
+  <!-- ======= Start Pricing Section ======= -->
+  <section id="pricing" class="pricing bg-white py-5" data-aos="fade-up" data-aos-once="true">
+    <div class="container aos-init aos-animate">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 ">
+          <div class="box">
+            <h3 class="text-center">Free</h3>
+            <h4><sup>$</sup>0<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li class="na">Pharetra massa</li>
+              <li class="na">Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="box featured">
+            <h3 class="text-center">Business</h3>
+            <h4><sup>$</sup>19<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li>Pharetra massa</li>
+              <li class="na">Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box">
+            <h3 class="text-center">Developer</h3>
+            <h4><sup>$</sup>29<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li>Pharetra massa</li>
+              <li>Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box">
+            <span class="advanced">Advanced</span>
+            <h3 class="text-center">Ultimate</h3>
+            <h4><sup>$</sup>49<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li>Pharetra massa</li>
+              <li>Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ======= End Pricing Section ======= -->
+
 
   <!-- Block footer -->
   <footer id="footer">
@@ -201,17 +291,20 @@
       </div>
     </div>
   </footer>
-  <a
-    href=""
-    class="back-to-top d-flex align-items-center justify-content-center active"
-  >
-    <i class="fa-solid fa-arrow-up"></i>
+  <a href="#top" id="back-to-top" class="rounded-circle">
+    <i class="fa-solid fa-arrow-up fs-6 text-white"></i>
   </a>
-
+  <!-- Aos js -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script type="text/javascript">
-    AOS.init();
-  </script>
+
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"crossorigin="anonymous"></script>
+ 
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Link js -->
+  <script src="/asset/style/javascript/script.js"></script>
 </body>
 
 </html>
