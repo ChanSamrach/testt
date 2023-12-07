@@ -161,6 +161,7 @@ ul {
 
 #back-to-top {
     position: fixed;
+    display: none;
     right: 15px;
     bottom: 15px;
     background: #5fcf80;
