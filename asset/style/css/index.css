@@ -31,7 +31,7 @@
 }
 
 /* counter */
-.number-count{
+.number-count {
     color: #5fcf80;
 }
 
@@ -53,6 +53,16 @@
     padding: 12px 15px;
 }
 
+/* Feature */
+.feature:hover {
+    border: 1px solid #5fcf80 !important;
+    color: #5fcf80 !important;
+}
+
+.feature a:hover {
+    color: #5fcf80 !important;
+}
+
 /* POPULAR COURSES */
 .bg-icon {
     background-color: #ecf9f0 !important;
@@ -72,6 +82,7 @@
     color: #5fcf80 !important;
     transition: opacity 0.3s ease;
 }
+
 /* blockquote */
 
 .blockquote {
