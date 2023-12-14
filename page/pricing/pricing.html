@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MTR</title>
-  <link rel="icon" href="/asset/image/book-icon.png" type="image/gif/png">
+  <link rel="icon" href="/assets/img/book-icon.png" type="image/gif/png">
   <!-- stylesheet css link -->
-  <link rel="stylesheet" href="/asset/style/css/header.css" />
-  <link rel="stylesheet" href="/asset/style/css/footer.css" />
-  <link rel="stylesheet" href="/asset/style/css/event-trainer.css" />
+  <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+  <link rel="stylesheet" href="/assets/css/about-pricing.css" />
 
   <!-- font awesome link -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -27,9 +27,9 @@
   <div id="preloading"></div>
   <section class="d-flex align-items-center bg-white sticky-top shadow-sm">
     <nav class="container navbar navbar-expand-lg">
-      <a class="navbar-brand fw-bold fs-2 ms-3" href="index.html">MTR</a>
+      <a class="navbar-brand fw-bold fs-2 ms-3" href="/index.html">MTR</a>
       <div>
-        <a href="/page/courses/index.html" class="get-started-btn d-lg-none">Get Started</a>
+        <a href="/page/courses/courses.html" class="get-started-btn d-lg-none">Get Started</a>
         <button class="navbar-toggler border-0" type="button" aria-controls="navbarNav" aria-expanded="false"
           aria-label="Toggle navigation" data-bs-toggle="modal" data-bs-target="#navModal">
           <span class="navbar-toggler-icon focus-ring-none"></span>
@@ -38,29 +38,29 @@
       <div class="nav-elements collapse navbar-collapse">
         <ul class="navbar-nav ms-auto fw-bold text-secondary">
           <li class="nav-item pe-4">
-            <a class="nav-link" aria-current="page" href="/page/home/index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item pe-4">
-            <a class="nav-link" href="/page/about/index.html">About</a>
+            <a class="nav-link" href="/page/about/about.html">About</a>
           </li>
           <li class="nav-item pe-4">
-            <a class="nav-link" href="/page/courses/index.html">Courses</a>
+            <a class="nav-link" href="/page/courses/courses.html">Courses</a>
           </li>
           <li class="nav-item pe-4">
-            <a class="nav-link" href="/page/trainers/index.html">Trainers</a>
+            <a class="nav-link" href="/page/trainers/trainers.html">Trainers</a>
           </li>
           <li class="nav-item pe-4">
-            <a class="nav-link active" href="/page/events/index.html">Events</a>
+            <a class="nav-link" href="/page/events/events.html">Events</a>
           </li>
           <li class="nav-item pe-4">
-            <a class="nav-link" href="/page/pricing/index.html">Pricing</a>
+            <a class="nav-link active" href="/page/pricing/pricing.html">Pricing</a>
           </li>
           <li class="nav-item pe-4">
-            <a class="nav-link" href="/page/contact/index.html">Contact</a>
+            <a class="nav-link" href="/page/contact/contact.html">Contact</a>
           </li>
         </ul>
       </div>
-      <a href="/page/courses/index.html" class="get-started-btn d-sm-none d-none d-lg-block">Get Started</a>
+      <a href="/page/courses/courses.html" class="get-started-btn d-sm-none d-none d-lg-block">Get Started</a>
     </nav>
   </section>
 
@@ -74,25 +74,25 @@
         <div class="modal-body bg-white mx-3 mb-3 rounded">
           <ul class="navbar-nav ms-auto fw-bold text-secondary">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/page/home/index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/page/about/index.html">About</a>
+              <a class="nav-link" href="/page/about/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/page/courses/index.html">Courses</a>
+              <a class="nav-link" href="/page/courses/courses.html">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/page/trainers/index.html">Trainers</a>
+              <a class="nav-link" href="/page/trainers/trainers.html">Trainers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/page/events/index.html">Events</a>
+              <a class="nav-link" href="/page/events/events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/page/pricing/index.html">Pricing</a>
+              <a class="nav-link active" href="/page/pricing/pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/page/contact/index.html">Contact</a>
+              <a class="nav-link" href="/page/contact/contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -100,66 +100,97 @@
     </div>
   </div>
 
-  <div data-aos="fade-in" data-aos-once="true">
-    <div class="breandcrumbs">
-      <div class="container">
-        <h2>Events</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia
-          voluptas
-          sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum
-          praesentium.</p>
-      </div>
+  
+  <!-- ======= Breadcrumbs ======= -->
+  <div class="breadcrumbs aos-init aos-animate">
+    <div class="container" data-aos="fade-in" data-aos-once="true">
+      <h2>Pricing</h2>
+      <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit
+        quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
     </div>
-  </div> 
+  </div>
+  <!-- End Breadcrumbs -->
 
-  <!--Card-->
-  <section id="events" class="events bg-white">
-    <div class="container pt-5">
-      <div class="row" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-image">
-                <img src="http://kiloit-learning.s3-website-ap-southeast-1.amazonaws.com/reactjs/team-3/sample-template/assets/img/events-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="d-inline-flex p-4">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="">Introduction to webdesign</a>
-                    <p id="event-p">Sunday, September 26th at 7:00 pm</p>
-                  </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-image">
-                <img src="http://kiloit-learning.s3-website-ap-southeast-1.amazonaws.com/reactjs/team-3/sample-template/assets/img/events-2.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="d-inline-flex p-4">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="">Marketing Strategies</a>
-                    <p>Sunday, November 15th at 7:00 pm</p>
-                  </h5>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque
-                    laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    architecto
-                    beatae vitae dicta sunt explicabo</p>
-                </div>
-              </div>
+  <!-- ======= Start Pricing Section ======= -->
+  <section id="pricing" class="pricing bg-white py-5" data-aos="fade-up" data-aos-once="true">
+    <div class="container aos-init aos-animate">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 ">
+          <div class="box">
+            <h3 class="text-center">Free</h3>
+            <h4><sup>$</sup>0<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li class="na">Pharetra massa</li>
+              <li class="na">Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="box featured">
+            <h3 class="text-center">Business</h3>
+            <h4><sup>$</sup>19<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li>Pharetra massa</li>
+              <li class="na">Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box">
+            <h3 class="text-center">Developer</h3>
+            <h4><sup>$</sup>29<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li>Pharetra massa</li>
+              <li>Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box">
+            <span class="advanced">Advanced</span>
+            <h3 class="text-center">Ultimate</h3>
+            <h4><sup>$</sup>49<span class="fs-6 text-secondary"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li>
+              <li>Nec feugiat nisl</li>
+              <li>Nulla at volutpat dola</li>
+              <li>Pharetra massa</li>
+              <li>Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
-  <!--End Card-->
+  <!-- ======= End Pricing Section ======= -->
+
 
   <!-- Block footer -->
   <footer id="footer">
@@ -264,7 +295,6 @@
   <a href="#top" id="back-to-top" class="rounded-circle">
     <i class="fa-solid fa-arrow-up fs-6 text-white"></i>
   </a>
-
   <!-- Aos js -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -275,7 +305,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Link js -->
-  <script src="/asset/style/javascript/script.js"></script>
+  <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
